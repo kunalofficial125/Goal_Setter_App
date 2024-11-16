@@ -1,0 +1,27 @@
+GoalSetter App - Internship Assignment Documentation
+Overview
+The GoalSetter app is a productivity tool that helps users create, track, and manage their goals. 
+The app allows users to set personal goals with titles, descriptions, and target dates. 
+It also provides progress tracking through a time-based visual indicator (progress bar), and sends reminders to keep users on track with their goals.
+
+Features Implemented
+Goal Creation:
+Users can create new goals by providing a title, description, and target date.
+The goal details are stored locally using Firebase Firestore for persistence.
+
+Progress Tracking:
+A progress bar is displayed for each goal, where the progress is determined by the amount of time spent towards completing the goal.
+The more time a user spends working on the goal, the more the progress bar fills, reflecting the goal’s progression based on time elapsed relative to the target date.
+
+Reminders:
+Users receive local notifications to remind them about their upcoming deadlines or goals they are working towards.
+Notifications are scheduled based on the target date of the goal.
+
+UI/UX:
+A clean and simple user interface is designed using Material Design components for consistency and ease of use.
+The interface includes buttons, text inputs, and progress bars, ensuring smooth user interaction.
+
+Challenges Faced
+Increased Progress Bar with Target and Elapsed Time:
+The challenge was to implement a progress bar that increased based on the target goal and elapsed time, while integrating with Firebase Firestore.
+Solution: Using mathematical calculations, I was able to track the elapsed time compared to the target time and update the progress bar accordingly. This required careful handling of time-based data and Firestore synchronization.
