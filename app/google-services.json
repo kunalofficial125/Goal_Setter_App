@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "511925449537",
+    "project_id": "goal-setter-1d406",
+    "storage_bucket": "goal-setter-1d406.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511925449537:android:6902b08ba12537c6d0e7c0",
+        "android_client_info": {
+          "package_name": "com.project.goalsetter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSxV8TQO7UuAfrE5R_6ua4ENSuUIYDnFo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
